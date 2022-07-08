@@ -1,0 +1,134 @@
+.P1 {
+  display: grid;
+  height: 500px;
+  grid-template-columns: 1fr 1fr ;
+  margin-bottom: 20px;
+}
+.P1-pic {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+}
+.P1-pic  img{
+  margin-top: 25%;
+  margin-left: 50%;
+  width: 200px;
+  height: 400px;
+  object-fit: cover;
+}
+.P1 h1{
+  font-size: 60px;
+  color: rgb(49, 49, 49);
+  border-bottom: 5px solid;
+  border-color: #666666;
+  width: 300px;
+  padding-bottom: 50px;
+}
+.P1 p {
+  font-size: 16px;
+  color: rgb(105, 105, 105);
+}
+
+
+.P2{
+  background-color: #666666;
+  background-image: url('https://i.pinimg.com/564x/00/91/a5/0091a5c95dcf80be766bda2d09e464f7.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.P2-head{
+  color: White;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  margin-bottom: 0px;
+}
+
+.P2-2{
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-bottom: 30px;
+}
+
+.P2-2left{
+  
+  margin: 10px;
+  margin-left: 35px;
+  padding-top: 40px;
+  width: 400px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+}
+
+.P2-2left img{
+  width: 300px;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+
+.P2-2left img:hover{
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+}
+
+.P2-2left p{
+  font-size:20px;
+  font-weight: bold;
+  color: rgb(71, 71, 71);
+  padding-bottom:10px ;
+}
+
+.P2-2 h2 {
+  justify-content: center;
+}
+
+.P2-2side {
+  margin-left: 30px;
+  margin-top: 80px;
+  width: 300px;
+  height: 350px;
+  object-fit: cover;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+  padding: 50px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+.P2-2img  {
+  border-radius: 5px;
+  width: 300px;
+  height: 350px;
+  object-fit: cover;
+  transition: all 0.5s;
+}
+
+.P2-2img:hover  {
+  border-radius: 5px;
+  width: 300px;
+  height: 350px;
+  object-fit: cover;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+}
+
+.Page4{
+  font-family: Prompt;
+  text-align: center;
+}
+
+.Page4-top  h3{
+  margin-bottom: 0px;
+}
+
+.Page4-top  p{
+  margin-top: 0px;
+}
+
+.block-4 img{
+  width: 20px;
+}
+
